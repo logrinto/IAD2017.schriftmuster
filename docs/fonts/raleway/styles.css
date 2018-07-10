@@ -90,12 +90,12 @@
 
 .BlackItalic {
   font-weight: 900;
-  font-style: italic;
+  font-style: italic;x
 
 }
 
 
-#link {
+a .link {
   color: black;
   text-decoration: none;
   font-style: italic;
