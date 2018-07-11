@@ -1,35 +1,170 @@
-@import url('https://fonts.googleapis.com/css?family=Neuton:200,300,400,400i,700,800');
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-extralight-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-extralightitalic-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-extralightitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-light-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-regular-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-italic-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neutoncursive-regular-webfont.woff2') format('woff2'),
+         url('./fonts/neutoncursive-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-bold-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-bold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-extrabold-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-extrabold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-sc-extralight-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-sc-extralight-webfont.woff') format('woff');
+    font-weight: 250;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-sc-light-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-sc-light-webfont.woff') format('woff');
+    font-weight: 350;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-sc-regular-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-sc-regular-webfont.woff') format('woff');
+    font-weight: 450;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-sc-bold-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-sc-bold-webfont.woff') format('woff');
+    font-weight: 650;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuton';
+    src: url('./fonts/neuton-sc-extrabold-webfont.woff2') format('woff2'),
+         url('./fonts/neuton-sc-extrabold-webfont.woff') format('woff');
+    font-weight: 750;
+    font-style: normal;
+}
+
+
+
+
+
+
+
 
 .customfont {
-  font-family: 'Neuton', serif;
+  font-family: 'neuton';
 }
 
-.ExtraLight {
+.neutonextralight {
   font-weight: 200;
+  font-style: normal;
 }
 
-.Light {
+.eutonextralightitalic {
+  font-weight: 200;
+  font-style: italic;
+}
+.neutonlight {
   font-weight: 300;
-  font-style: italic;
-
+  font-style: normal;
 }
-
-.Regular {
+.neutonregular {
   font-weight: 400;
+  font-style: normal;
 }
-
-.RegularItalic {
+.neutonitalic {
   font-weight: 400;
   font-style: italic;
-
 }
-
-.Bold {
+.neuton_cursiveregular {
+  font-weight: 500;
+  font-style: normal;
+}
+.neutonbold {
+  font-weight: 600;
+  font-style: normal;
+}
+.neutonextrabold {
   font-weight: 700;
+  font-style: normal;
+}
+.neuton_scsc-extralight {
+  font-weight: 250;
+  font-style: normal;
+}
+.neuton_scsc-light {
+  font-weight: 350;
+  font-style: normal;
 }
 
-.ExtraBold {
-  font-weight: 800;
-  font-style: italic;
+.neuton_scsc-regular {
+  font-weight: 450;
+  font-style: normal;
+}
 
+.neuton_scsc-bold {
+  font-weight: 650;
+  font-style: normal;
+}
+
+.neuton_scsc-extrabold {
+  font-weight: 750;
+  font-style: normal;
 }

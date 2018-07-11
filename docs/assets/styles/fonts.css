@@ -166,3 +166,11 @@
 .font--cooperhewitt:hover {
   background: linear-gradient(to right, #ff0066, #009999);
 }
+
+.font--neuton {
+    background: linear-gradient(130deg, #F5F1D5, #B4D6C6);
+}
+
+.font--neuton:hover {
+    background: linear-gradient(130deg, #B4D6C6, #F5F1D5);
+}
