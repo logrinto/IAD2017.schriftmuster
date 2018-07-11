@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani:300,400,500,700'); /* Tschuldigung. No italic style available. */
+@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani:200,300,400,500,600,700,800'); /* Tschuldigung. No italic style available. */
 
 
 .customfont {
     font-family: 'Mukta Vaani', sans-serif;
+}
+
+.ExtraLight {
+  font-weight: 200;
 }
 
 .Light {
@@ -17,6 +21,14 @@
   font-weight: 500;
 }
 
+.SemiBold {
+  font-weight: 600;
+}
+
 .Bold {
   font-weight: 700;
+}
+
+.ExtraBold {
+  font-weight: 800;
 }
