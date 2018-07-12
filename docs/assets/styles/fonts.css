@@ -96,11 +96,11 @@
 }
 
 .font--faustina {
-  background: linear-gradient(to right, #283048, #859398);
+  background: linear-gradient(to right, #283048, #313B59);
 }
 
 .font--faustina:hover {
-  background: linear-gradient(to right, #859398, #283048);
+  background: linear-gradient(to right, #313B59, #283048);
 }
 
 .font--faustina a {
