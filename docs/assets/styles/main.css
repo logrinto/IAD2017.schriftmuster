@@ -92,10 +92,6 @@ a:hover {
   color: #6b6b6b;
 }
 
-.grid a:before {
-    content: "\2192 ";
-}
-
 .grid a:hover {
   color: black;
 }
