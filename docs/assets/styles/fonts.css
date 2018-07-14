@@ -107,6 +107,10 @@
   color: white;
 }
 
+.font--faustina:hover a {
+  color: white;
+}
+
 .font--bitter {
   background-color: #FFF857;
 }
