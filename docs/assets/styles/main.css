@@ -211,6 +211,7 @@ a:hover {
   height: 42.85vw; /* 21:9 */
   overflow: hidden;
   padding-bottom: 4rem;
+  margin-top: -4px;
 }
 
 .hero--inner {
